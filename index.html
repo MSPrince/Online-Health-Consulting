@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link bootstrap css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <!-- bootstrap font -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- favicon icon start -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./image/Favicon-Icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./image/Favicon-Icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./image/Favicon-Icon/favicon-16x16.png">
+    <link rel="manifest" href="./image/Favicon-Icon/site.webmanifest">
+    <link rel="mask-icon" href="./image/Favicon-Icon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#00a300">
+    <meta name="msapplication-TileImage" content="./image/Favicon-Icon/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- favicon icon End -->
+    <title>A Doctor's Diary</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/chatbot.css">
+    <link rel="stylesheet" href="./css/Download-app.css">
+</head>
+
+<body>
+    <div class="containerfluid">
+        <!---------------------------------------- topbar Start-------------------------------------------- -->
+        <div id="topbar" class="d-flex align-items-center ">
+            <div class="container d-flex align-items-center justify-content-center justify-content-md-between">
+                <div class="align-items-center d-none d-md-flex">
+                    <i class="fa fa-clock"></i> Monday - Sunday, 24*7
+                </div>
+                <div class="d-flex align-items-center">
+                    <i class="fa fa-phone"></i> Call us now +91-789-717-3138
+                </div>
+            </div>
+        </div>
+        <!------------------------------------------ topbar end ------------------------------------------------------>
+
+        <!-------------------------------------navigation Start----------------------------------------------- ----->
+        <nav class="navbar navbar-expand-lg navbar-light navbar2 ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="./image/logo/Screenshot 2023-09-27 113041.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto  mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                Video Consult</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Medicine
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Order Medicine</a></li>
+                                <li><a class="dropdown-item" href="#">Medicine Detail</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Medicine Dose</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#" tabindex="-1" aria-disabled="false">Find Doctor</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Comman Disease</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <button class="btn nav2-btn" type="submit">Make An Appoiment</button>
+                    </form>
+                    <button class="btn nav2-bt2"><a href="login.html"><i class="bi bi-person-circle"
+                                style="font-size: 25px;"></i></a></button>
+                </div>
+            </div>
+        </nav>
+        <!-------------------------------------navigation  end----------------------------------------------- -->
+
+
+        <!-- -------------------------------------------banner scetion start------------------------------------------ -->
+        <section id="hero" class="d-flex align-items-center sectionn">
+            <div class="container text-center">
+                <h1>Skip The Travel ! <br>
+                    Take Online Doctor <br>Consultation</h1>
+                <h2>Private consultation + Audio call <br> Starts at just ₹199</h2>
+                <a href="" class="btn_get_started">Consult Now</a>
+            </div>
+        </section>
+        <!----------------------------------------------banner section end------------------------------------------------>
+
+
+        <!-- -------------------------------------------------------------------top speciality card container start -------------------------------------------------------------------------------->
+        <div class="container-fluid">
+            <div class=" Specialities-Main">
+                <div>
+                    <h2>25<sup>+</sup>Specialities</h2>
+                    <p class="Specialities-text">Consult with top doctors acress Specialities</p>
+                </div>
+                <a href="" class="btn_get_started">See All Specialities</a>
+            </div>
+
+            <div class="logos">
+
+
+                <div class="logos-slide">
+                    <div class="Specialities-Card">
+                        <img src="./image/speciality card icon/9-sex-specialist.png" alt="">
+                        <h1>Sexology</h1>
+                        <p>$-2.0</p>
+                        <p><a href="">consult now</a></p>
+                    </div>
+                </div>
+                <div class="logos-slide">
+                    <div class="Specialities-Card">
+                        <img src="./image/speciality card icon/1-womens-health.png" alt="">
+                        <h1>Gynaecology</h1>
+                        <p>$-2.0</p>
+                        <p><a href="">consult now</a></p>
+                    </div>
+                </div>
+                <div class="logos-slide">
+                    <div class="Specialities-Card">
+                        <img src="./image/speciality card icon/3-child-specialist.png" alt="">
+                        <h1>Pediatrics</h1>
+                        <p>$-2.0</p>
+                        <p><a href="">consult now</a></p>
+                    </div>
+                </div>
+                <div class="logos-slide">
+                    <div class="Specialities-Card">
+                        <img src="./image/speciality card icon/cx_urology.png" alt="">
+                        <h1>Urology</h1>
+                        <p>$-2.0</p>
+                        <p><a href="">consult now</a></p>
+                    </div>
+                </div>
+                <div class="logos-slide">
+                    <div class="Specialities-Card">
+                        <img src="./image/speciality card icon/1111.jpg" alt="">
+                        <h1>Cardiology</h1>
+                        <p>$-2.0</p>
+                        <p><a href="">consult now</a></p>
+                    </div>
+                </div>
+                <div class="logos-slide">
+                    <div class="Specialities-Card">
+                        <img src="./image/speciality card icon/17-ayurveda.png" alt="">
+                        <h1>Ayurveda</h1>
+                        <p>$-2.0</p>
+                        <p><a href="">consult now</a></p>
+                    </div>
+                </div>
+                <div class="logos-slide">
+                    <div class="Specialities-Card">
+                        <img src="./image/speciality card icon/5-dental-care.png" alt="">
+                        <h1>Dental</h1>
+                        <p>$-2.0</p>
+                        <p><a href="">consult now</a></p>
+                    </div>
+                </div>
+                <div class="logos-slide">
+                    <div class="Specialities-Card">
+                        <img src="./image/speciality card icon/2222.jpg" alt="">
+                        <h1>Neurology</h1>
+                        <p>$-2.0</p>
+                        <p><a href="">consult now</a></p>
+                    </div>
+                </div>
+                <div class="logos-slide">
+                    <div class="Specialities-Card">
+                        <img src="./image/speciality card icon/8-bone-and-joints.png" alt="">
+                        <h1>Orthopedic</h1>
+                        <p>$-2.0</p>
+                        <p><a href="">consult now</a></p>
+                    </div>
+                </div>
+                <div class="logos-slide">
+                    <div class="Specialities-Card">
+                        <img src="./image/speciality card icon/Diabetes_1.png" alt="">
+                        <h1>Diabetology</h1>
+                        <p>$-2.0</p>
+                        <p><a href="">consult now</a></p>
+                    </div>
+                </div>
+                <div class="logos-slide">
+                    <div class="Specialities-Card">
+                        <img src="./image/speciality card icon/cx_gastroenterology.png" alt="">
+                        <h1>Gastroenterology</h1>
+                        <p>$-2.0</p>
+                        <p><a href="">consult now</a></p>
+                    </div>
+                </div>
+                <div class="logos-slide">
+                    <div class="Specialities-Card">
+                        <img src="./image/speciality card icon/2-skin-hair.png" alt="">
+                        <h1>Dermatology</h1>
+                        <p>$-2.0</p>
+                        <p><a href="">consult now</a></p>
+                    </div>
+                </div>
+                <div class="logos-slide">
+                    <div class="Specialities-Card">
+                        <img src="./image/speciality card icon/12-mental-wellness.png" alt="">
+                        <h1>Psychiatry</h1>
+                        <p>$-2.0</p>
+                        <p><a href="">consult now</a></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!--------------------------------------------------------------------- top speciality card container End -------------------------------------------------------------------------------->
+
+
+
+        <!-- ------------------------------------------------------------------health problem card container start -------------------------------------------------------------------------------->
+        <div class="health-corner">
+            <div class="Comman-health">
+                <h2>Common Health Concerns</h2>
+                <p>Consult a doctor online for any health issue</p>
+            </div>
+            <div><a href="" class="btn_get_started ">See All Symptoms </a></div>
+        </div>
+        <div class="card-slider-container1">
+            <div class="card-slider1">
+                <div class="card1">
+                    <img src="./image/common health corner/cough-cold-v1.jpg" alt="Card 1">
+                    <div class="card-content1">
+                        <h3>Cough & Cold</h3>
+                        <p><a href="" class="">Consult Now</a></p>
+                    </div>
+                </div>
+                <div class="card1">
+                    <img src="./image/common health corner/vaginal-infections-v1.jpg" alt="Card 1">
+                    <div class="card-content1">
+                        <h3>Vaginal Infection</h3>
+                        <p><a href="">Consult Now</a></p>
+                    </div>
+                </div>
+
+                <div class="card1">
+                    <img src="./image/common health corner/performance-issues-bed-v1.jpg" alt="Card 1">
+                    <div class="card-content1">
+                        <h3>Performance Issue in bed</h3>
+                        <p><a href="">Consult Now</a></p>
+                    </div>
+                </div>
+                <div class="card1">
+                    <img src="./image/common health corner/period-problems-v1.jpg" alt="Card 1">
+                    <div class="card-content1">
+                        <h3>Period Problem</h3>
+                        <p><a href="">Consult Now</a></p>
+                    </div>
+                </div>
+                <div class="card1">
+                    <img src="./image/common health corner/depression-anxiety-v1.jpg" alt="Card 1">
+                    <div class="card-content1">
+                        <h3>Depression & Anxiety</h3>
+                        <p><a href="">Consult Now</a></p>
+                    </div>
+                </div>
+
+                <div class="card1">
+                    <img src="./image/common health corner/lose-weight-v1.jpg" alt="Card 1">
+                    <div class="card-content1">
+                        <h3>Ioose Weight</h3>
+                        <p><a href="">Consult Now</a></p>
+                    </div>
+                </div>
+
+
+
+
+                <div class="card1">
+                    <img src="./image/common health corner/sick-kid-v1.jpg" alt="Card 1">
+                    <div class="card-content1">
+                        <h3>Skin Kid</h3>
+                        <p><a href=""> Consult Now </a></p>
+                    </div>
+                </div>
+
+                <div class="card1">
+                    <img src="./image/common health corner/skin-problems-v1.jpg" alt="Card 1">
+                    <div class="card-content1">
+                        <h3>Skin Problem</h3>
+                        <p><a href=""> Consult Now </a></p>
+                    </div>
+                </div>
+
+                <div class="card1">
+                    <img src="./image/common health corner/stomach-issues-v1.jpg" alt="Card 1">
+                    <div class="card-content1">
+                        <h3>Stomach Issue</h3>
+                        <p><a href="">Consult Now</a></p>
+                    </div>
+                </div>
+
+                <!-- Repeat the card structure for additional cards -->
+            </div>
+            <button class="prev-button1">&#10094;</button>
+            <button class="next-button1">&#10095;</button>
+        </div>
+        <!-- ------------------------------------------------------------------health problem card container End -------------------------------------------------------------------------------->
+
+
+        <!---------------------------------------------------------------------offers card container start -------------------------------------------------------------------------------->
+        <!---------------------------------------------------------------------offers card container End -------------------------------------------------------------------------------->
+
+
+        <!-- -------------------------------------------------------------------our doctor start------------------------------------------------------------------------------ -->
+        <!-- -------------------------------------------------------------------our doctor End -------------------------------------------------------------------------------->
+
+
+        <!-- -------------------------------------------------------------------how it works section start -------------------------------------------------------------------------------->
+        <!---------------------------------------------------------------------- how it works section End -------------------------------------------------------------------------------->
+
+
+        <!--------------------------------------------------------------------- trust metrics section start -------------------------------------------------------------------------------->
+        <div class="container-fluid bg-dark">
+            <div class="row justify-content-evenly pt-2 pb-2 award-section">
+                <div class="col-md-2 col-sm-6 mt-1 mb-1 text-center text-white ">
+                    <h3>2,00,000+</h3>
+                    <h6><i class="bi bi-emoji-smile-fill"></i> Happy Users</h6>
+                </div>
+                <div class="col-md-2 col-sm-6 mt-1 mb-1 text-center text-white ">
+                    <h3>20,000+</h3>
+                    <h6><i class="bi bi-patch-check-fill"></i> Verified Doctors</h6>
+                </div>
+                <div class="col-md-2 col-sm-6 mt-1 mb-1 text-center text-white ">
+                    <h3>25+</h3>
+                    <h6><i class="bi bi-patch-check-fill"></i> Specialities</h6>
+                </div>
+                <div class="col-md-2 col-sm-6 mt-1 mb-1 text-center text-white ">
+                    <h3>4.5 / 5</h3>
+                    <h6><i class="bi bi-segmented-nav"></i> App Rating</h6>
+                </div>
+            </div>
+        </div>
+        <!--------------------------------------------------------------------- trust metrics section End -------------------------------------------------------------------------------->
+
+
+        <!--------------------------------------------------------------------- Benifit section start -------------------------------------------------------------------------------->
+        <div class="container-fluid ">
+            <h1 class="benifit-heading mt-3">Benefits of Online Consultation</h1>
+            <div class="container benifit d-flex justify-content-evenly">
+                <div class="benifit-card mb-3">
+                    <h3><i class="bi bi-person-check-fill"></i> Consult Top Doctors 24x7</h3>
+                    <p>Connect instantly with a 24x7 specialist or choose to video visit a particular doctor.</p>
+                </div>
+
+                <div class="benifit-card mb-3">
+                    <h3><i class="bi bi-person-check-fill"></i> Convenient and Easy</h3>
+                    <p>Start an instant consultation within 2 minutes or do video consultation at the scheduled time.
+                    </p>
+                </div>
+
+                <div class="benifit-card mb-3">
+                    <h3><i class="bi bi-person-check-fill"></i> 100% Safe Consultations</h3>
+                    <p>Be assured that your online consultation will be fully private and secured.</p>
+                </div>
+
+                <div class="benifit-card mb-3">
+                    <h3><i class="bi bi-person-check-fill"></i> Similar Clinic Experience</h3>
+                    <p>Experience clinic-like consultation through a video call with the doctor. Video consultation is
+                        available only on the
+                        A Doctor's Diary App.</p>
+                </div>
+                <div class="benifit-card mb-3">
+                    <h3><i class="bi bi-person-check-fill"></i> Similar Clinic Experience</h3>
+                    <p>Experience clinic-like consultation through a video call with the doctor. Video consultation is
+                        available only on the
+                        A Doctor's Diary App.</p>
+                </div>
+
+                <div class="benifit-card mb-3">
+                    <h3><i class="bi bi-person-check-fill"></i> Free Follow-up</h3>
+                    <p>Get a valid digital prescription and a 7-day, free follow-up for further clarifications.</p>
+                </div>
+            </div>
+        </div>
+        <!--------------------------------------------------------------------- Benifit section End -------------------------------------------------------------------------------->
+
+
+        <!-- -------------------------------------------------------------------testimonial card start -------------------------------------------------------------------------------->
+        <div class="container-fluid">
+            <h1 class="benifit-heading mt-3">What our users say about their online consultation experience</h1>
+            <div class="container">
+
+
+                <section class="main-review">
+                    <div class="full-boxer-review">
+                        <div class="comment-box-review">
+                            <div class="box-top-review">
+                                <div class="Profile-review">
+                                    <div class="profile-image-review">
+                                        <img src="./image/testemonial logo/Screenshot 2023-09-30 170534.png">
+                                    </div>
+                                    <div class="Name-review">
+                                        <strong>Aditi Singh</strong>
+                                        <span>@cool-aditi</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="comment-review">
+                                <p>
+                                    I was really sick and couldn't get out of bed. I talked to the doctor through Practo
+                                    and he shared a prescription in 10
+                                    minutes. I even got the medicines delivered on the same day through Practo, just a
+                                    WOW experience.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="comment-box-review">
+                            <div class="box-top-review">
+                                <div class="Profile-review">
+                                    <div class="profile-image-review">
+                                        <img src="./image/testemonial logo/Screenshot 2023-09-30 170517.png">
+                                    </div>
+                                    <div class="Name-review">
+                                        <strong>Suhani Singh</strong>
+                                        <span>@Suhanisingh</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="comment-review">
+                                <p>
+                                    I was in pain and it was really late at night. I
+                                    wanted help but couldn't go to see the doctor due
+                                    to lateness of the hour. Consulted online on Practo and doctor responded
+                                    immediately.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="comment-box-review">
+                            <div class="box-top-review">
+                                <div class="Profile-review">
+                                    <div class="profile-image-review">
+                                        <img src="./image/testemonial logo/Screenshot 2023-09-30 170615.png">
+                                    </div>
+                                    <div class="Name-review">
+                                        <strong>Neha Singh</strong>
+                                        <span>@nehaSingh</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="comment-review">
+                                <p>
+                                    I was travelling to a remote place for scuba diving and injured myself. Tough to
+                                    find doctors around, so did an online
+                                    consultation on Practo and hey presto, I have my medicines. Disruptive.
+                                    Convenient.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="comment-box-review">
+                            <div class="box-top-review">
+                                <div class="Profile-review">
+                                    <div class="profile-image-review">
+                                        <img src="./image/testemonial logo/Screenshot 2023-09-30 170627.png">
+                                    </div>
+                                    <div class="Name-review">
+                                        <strong>Pooja Sharma</strong>
+                                        <span>@Rpooja143</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="comment-review">
+                                <p>
+                                    Excellent experience consulting on Practo. I could solve my health issue without
+                                    going to a clinic!
+                                    Highly recommended!
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <!--------------------------------------------------------------------- testimonial card End------------------------------------------------------------------------------ -->
+
+
+
+        <!--------------------------------------------------------------------- faq section start -------------------------------------------------------------------------------->
+
+        <!-- -------------------------------------------------------------------faq section end -------------------------------------------------------------------------------->
+
+
+
+        <!--------------------------------------------------------------------- why delay start------------------------------------------------------------------------------ -->
+
+        <!---------------------------------------------------------------------- why delay end -------------------------------------------------------------------------------->
+
+
+
+        <!-- -------------------------------------------------------------------health queries section start------------------------------------------------------------------------------ -->
+
+        <!-- -------------------------------------------------------------------health queries section end -->
+
+
+
+        <!----------------------------------------------------------------------health consern section start -------------------------------------------------------------------------------->
+
+        <!-- -------------------------------------------------------------------health consern section end -------------------------------------------------------------------------------->
+
+
+
+
+        <!--------------------------------------------------------------------- App download start------------------------------------------------------------------------------ -->
+        <div class="container-fluid body-down ">
+            <div class="container">
+                <section class="hero-section-down">
+                    <div class="hero-down">
+                        <h2>Mobile App Development</h2>
+                        <p><i class="bi bi-shield-fill-check"></i> Video consult with Doctors </p>
+                        <p><i class="bi bi-shield-fill-check"></i> Live medicine order tracking</p>
+                        <p><i class="bi bi-shield-fill-check"></i> Exclusive healthcare packages </p>
+                        <p><i class="bi bi-shield-fill-check"></i> Ask free questions</p>
+                        <div class="buttons">
+                            <a href="#" class=""><img class="ios-down" src="./image/download/app-store-badge.png"
+                                    alt=""></a>
+                            <a href="#" class=""><img class="android-down" src="./image/download/google-play-badge.png"
+                                    alt=""></a>
+                        </div>
+                    </div>
+                    <div class="img-down">
+                        <img src="./image/banner/3859218-ai.png" alt="hero image" />
+                    </div>
+                </section>
+
+            </div>
+        </div>
+        <!-- -------------------------------------------------------------------App download end------------------------------------------------------------------------------ -->
+
+
+
+
+        <!-- --------------------------------------------------------------------seo sectionstart -------------------------------------------------------------------------------->
+        <div class="container-fluid">
+            <div class="container secondlast">
+                <p>Looking for a trusted & secured online dr consultation in India?</p>
+                <p>Consult a doctor online on A Doctor’s Diary for any health concern. Our pool of over 20,000 trusted
+                    doctors
+                    across
+                    25+
+                    specialties
+                    will ensure all your health queries are answered. You can get online dr advice from a Psychiatrist,
+                    Dermatologist,
+                    Gynecologist, Sexologist, Pediatrician, Cardiologist, Neurologist, Gastroenterologist, Urologist,
+                    Endocrinologist,
+                    Dentist, Psychologist, and many more. Video consultation with a doctor is available only on A
+                    Doctor’s
+                    Diary's
+                    online
+                    doctor app.
+                </p>
+                <p>A Doctor’s Diary serves customers in the following cities: Bangalore, Mumbai, Delhi, Kolkata,
+                    Hyderabad,
+                    Chennai,
+                    Pune,
+                    Ahmedabad,
+                    Gurgaon and Ghaziabad</p>
+                <p>Recently Answered Questions: Olanzapine+ risperdone | Pcos and pregnancy | Doctor prescribed me
+                    steroids
+                    for
+                    acne |
+                    Pregnancy through fingers | Protein powder after c section | Injury of gums due to a fall | Chest
+                    Injury
+                    |
+                    BP spike up</p>
+                <p>Topics: Looking for weight gain tips? | Worried about chest pain? | Want to get rid of dark circles?
+                    |
+                    How to
+                    use prega
+                    news kit? | Need some weight loss advice? | Work, family or relationship stress? | Looking to
+                    improve
+                    digestion? |
+                    Painful kidney stones? | Need some sexual advice? | Want to learn how to last longer? | Seek help
+                    for
+                    lower
+                    back pain |
+                    Need some advice for irregular periods? | Ask how you can relieve throat pain | Need help with
+                    frequent
+                    urination? |
+                    Have trouble breathing? | Need some dental advice? | Want to get rid of acne scars? | Stomach pain
+                    bothering
+                    you? |
+                    Doubts about periods?</p>
+                <p>Specialities: Ask A Psychiatrist | Ask A Dermatologist | Ask A Sexologist | Ask A Gynecologist | Ask
+                    A
+                    General Physician
+                    Doctor | Ask A Pediatrician Doctor | Ask An Ear Nose Throat Doctor | Ask A Kidney Urine Doctor | Ask
+                    An
+                    Orthopedic
+                    Doctor | Ask A Neurologist Doctor</p>
+
+            </div>
+        </div>
+        <!-----------------------------------------------------------------------seo section- end -------------------------------------------------------------------------------->
+
+
+
+
+        <!-- -------------------------------------------------------------------footer start -------------------------------------------------------------------------------->
+        <footer class="footer-section">
+            <div class="container">
+                <div class="footer-cta py-2">
+                    <div class="row">
+                        <div class="col-sm-6 col-xl-4 mb-30">
+                            <div class="single-cta">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div class="cta-text">
+                                    <h4>Find us</h4>
+                                    <span>khanpur Akbar Jaunpur 222001</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-xl-4 mb-30">
+                            <div class="single-cta">
+                                <i class="fas fa-phone"></i>
+                                <div class="cta-text">
+                                    <h4>Call us</h4>
+                                    <span>7897173138</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-xl-4 mb-30">
+                            <div class="single-cta">
+                                <i class="fas fa-envelope-open"></i>
+                                <div class="cta-text">
+                                    <h4>Mail us</h4>
+                                    <span>manseeprince06@gmail.com</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-content py-3">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="footer-widget">
+                                <div class="footer-logo">
+                                    <a href="#"><img decoding="async" src="./image/logo2.png" class="img-fluid"></a>
+                                </div>
+                                <div class="footer-text">
+                                    <p>An online doctor consultation has many advantages over an in-person consultation.
+                                        You
+                                        can
+                                        easily avoid the wait time
+                                        associated with in-person appointments. Additionally, you can take as much time
+                                        as
+                                        you
+                                        need during the consultation
+                                        without feeling rushed.</p>
+                                </div>
+                                <div class="footer-social-icon">
+                                    <span>Follow us</span>
+                                    <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                    <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                                    <a href="#"><i class="fab fa-instagram instagram-bg"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="footer-widget">
+                                <div class="footer-widget-heading">
+                                    <h3>Useful Links</h3>
+                                </div>
+                                <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">Video Consultant</a></li>
+                                    <li><a href="#">Medicine</a></li>
+                                    <li><a href="#">Lab Test</a></li>
+                                    <li><a href="#">Find Doctor</a></li>
+                                    <li><a href="#">Comman Disease</a></li>
+                                    <li><a href="#">Latest News</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="footer-widget">
+                                <div class="footer-widget-heading">
+                                    <h3>Subscribe</h3>
+                                </div>
+                                <div class="footer-text">
+                                    <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                                </div>
+                                <div class="subscribe-form">
+                                    <form action="#">
+                                        <input type="text" placeholder="Email Address">
+                                        <button><i class="fab fa-telegram-plane"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="copyright-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                            <div class="copyright-text mb-3">
+                                <p>Copyright © 2021, All Right Reserved <a href="#">A Doctor's Diary</a></p>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 text-center pt-3 d-none d-lg-block">
+                            <div class="footer-menu">
+                                <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">Terms</a></li>
+                                    <li><a href="#">Privacy</a></li>
+                                    <li><a href="#">Policy</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+        <!-- -------------------------------------------------------------------footer end -------------------------------------------------------------------------------->
+
+
+
+        <!-- chatbot Start -->
+        <button class="chatbot-toggler">
+            <span class="material-symbols-rounded"><i class="bi bi-chat-dots-fill"></i></span>
+            <span class="material-symbols-outlined"><i class="bi bi-x-circle-fill"></i></span>
+        </button>
+        <div class="chatbot">
+            <header>
+                <h2>Chatbot</h2>
+                <span class="close-btn material-symbols-outlined"><i class="bi bi-x-circle-fill"></i></span>
+            </header>
+            <ul class="chatbox">
+                <li class="chat incoming">
+                    <span class="material-symbols-outlined">@MS-17</span>
+                    <p>Hi there 👋<br>How can I help you today?</p>
+                </li>
+            </ul>
+            <div class="chat-input">
+                <textarea placeholder="Enter a message..." spellcheck="false" required></textarea>
+                <span id="send-btn" class="material-symbols-rounded">send</span>
+            </div>
+        </div>
+        <!-- chatbot End -->
+
+
+
+    </div>
+
+
+
+
+
+
+    <!-- ----------------------------link bootstrap js file---------------------------------------- -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <!-- --------------------------------link fontawsome ------------------------------------------------------>
+    <script src="https://kit.fontawesome.com/b3263a74b4.js" crossorigin="anonymous"></script>
+    <!-- --------------------chatbot js file -->
+    <script src="./js/chatbot.js"></script>
+
+    <!-- main js file -->
+    <script src="./js/script.js"></script>
+    <!-- flag script file -->
+</body>
+
+</html>
