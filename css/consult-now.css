@@ -11,233 +11,179 @@
 
 .login-navbar {
     position: fixed !important;
-    margin-top: 40px;
+    /* margin-top: 40px; */
     left: 0;
     right: 0;
     z-index: 6546546;
 }
 
-.consultNow-body{
-   background-image: url("../image/consult Now/healthcare-background-9w17dflbvlamr5wo.jpg");
-}
-.consult-body {
-    height: 80vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
+
+.contact-form-consult-Now {
+    /* position: fixed; */
+    height: 100vh;
+    z-index: 0;
+    background:#3fbbc0;
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    padding: 30px;
     justify-content: center;
-    /* background: #4d9fa7; */
-    position: relative;
-    margin-top: 55px;
-}
-
-.consult-container {
-    z-index: 12;
-    max-width: 1050px;
-    width: 80%;
-    background: #fff;
-    border-radius: 12px;
-    margin: 0 20px -15px 20px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
-    /* border: 2px solid red; */
-    position: sticky;
-}
-
-.consult-container .consult-content {
-    display: flex;
+    display: grid;
+    grid-template-rows: 1fr auto 1fr;
     align-items: center;
-    justify-content: space-between;
-    padding: 25px 40px;
-    /* border: 2px solid red; */
-    background-color: #e5eded;
+    /* border: 10px solid red; */
 }
 
-.consult-content .consult-image-box {
-    max-width: 50%;
-    margin-left: 50px;
-    /* border: 2px solid red; */
-
-}
-
-.consult-content .consult-image-box img {
-    width: 60%;
-    /* border: 2px solid red; */
-    padding-left: 30px;
-}
-
-.consult-content .consult-topic {
-    font-size: 22px;
-    font-weight: 500;
-    color: #0cedea;
-    
-}
-
-.consult-content form {
-    width: 40%;
-    margin-right: 30px;
-    /* border: 2px solid red; */
-
-}
-
-.consult-content .consult-specialities {
-    height: 40px;
-    width: 60% !important;
-    margin: 14px 0;
-    position: relative;
-    /* border: 1px solid pink; */
-    /* padding: 5px; */
-
-}
-
-.consult-content .consult-specialities h1{
-    position: absolute;
-    height: 100%;
+.container-consult-Now {
     width: 100%;
-    border-radius: 6px;
-    font-size: 16px;
-    outline: none;
-    padding: 7px;
-    background: #fae9fb;
-    border: 1px solid black;
-    transition: all 0.3s ease;
-    font-size: 20px;
+    margin-top: -40px;
+    height: 70%
+    /* margin-bottom: 50px; */
+    /* border: 10px solid red; */
+}
+
+.contact-form-consult-Now h1 {
     text-align: center;
-    cursor: pointer;
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'poppins';
 }
 
-.consult-specialities input::placeholder {
-    color: black
-}
 
-
-.consult-content .consult-input-box {
-    height: 40px;
-    width: 100%;
-    margin: 14px 0;
+.contact-form-consult-Now .main-consult-Now {
     position: relative;
+    display: flex;
+    /* margin: 30px 0 0 0; */
+    /* border: 10px solid red; */
 }
 
-.consult-content .consult-input-box input {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    border-radius: 6px;
-    font-size: 15px;
-    outline: none;
-    padding: 0 16px;
-    background: #fae9fb;
-    border: 2px solid transparent;
-    transition: all 0.3s ease;
-}
-
-.consult-content .consult-input-box input:focus,
-.consult-content .consult-input-box input:valid {
-    border-color: #ecf0f1;
-    background-color: #10eaea;
-}
-
-.consult-content .consult-input-box label {
-    position: absolute;
-    left: 18px;
-    top: 50%;
-    color: #636c72;
-    font-size: 15px;
-    pointer-events: none;
-    transform: translateY(-50%);
-    transition: all 0.3s ease;
-}
-
-.consult-content .consult-input-box input:focus~label,
-.consult-content .consult-input-box input:valid~label {
-    top: 0;
-    left: 12px;
-    display: 14px;
-    color: #ba24c2;
+.content-consult-Now {
+    padding: 5px 20px 0 20px;
     background: #fff;
+    box-shadow: 2px 9px 49px -17px rgba(156, 39, 148, 0.1);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    /* border: 2px solid red; */
 }
 
-.consult-content .consult-message-box {
-    min-height: 70px;
-    position: relative;
+.form-img-consult-Now {
+    flex-basis: 90%;
+    background: #f0f4f8;
+    background-size: cover;
+    padding: 40px;
+    padding-bottom: 5px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    align-items: center;
+    display: grid;
 }
 
-.consult-content .consult-message-box textarea {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    resize: none;
-    background: #fae9fb;
-    border: 2px solid transparent;
-    border-radius: 6px;
+.form-img-consult-Now img {
+    max-width: 100%;
+}
+
+.btn-consult-Now,
+button,
+input {
+    border-radius: 35px;
+}
+
+
+
+
+.contact-form-consult-Now form {
+    margin: 10px 0;
+}
+
+.contact-form-consult-Now input,
+textarea,
+select {
+    margin-top: 2px;
     outline: none;
-    padding: 5px 16px;
-    transition: all 0.3s ease;
+    margin-bottom: 10px;
+    font-stretch: 16px;
+    color: #999;
+    padding: 7px 10px;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    border: none;
+    background: #fcfcfc;
+    transition: 0.3s ease;
+    border: .7px solid rgb(25, 207, 210);
 }
 
-.consult-content .consult-message-box textarea:focus {
-    border-color: #ba24c2;
-    background-color: #fff;
-}
-
-.consult-content .consult-message-box label {
-    position: absolute;
+.contact-form-consult-Now select option {
+    padding: 14px 6px;
+    color: black;
     font-size: 16px;
-    color: #636c72;
-    left: 18px;
-    top: 6px;
-    pointer-events: none;
-    transition: all 0.3s ease;
+    margin: 20px 0;
 }
 
-.consult-content .consult-message-box textarea:focus~label {
-    left: 12px;
-    top: -10px;
-    color: #ba24c2;
-    font-size: 14px;
-    background: #fff;
-}
-
-.consult-content .consult-input-box input[type="submit"] {
-    color: #0b0b0b;
+.contact-form-consult-Now input:focus {
     background: transparent;
-    padding-left: 0;
-    font-size: 18px;
-    font-weight: 500;
-    cursor: pointer;
-    border-radius: 12px;
-    letter-spacing: 1px;
-    border: 2px solid #090909;
-    transition: all 0.3s ease;
+    border: 1px solid #69275c;
 }
 
-.consult-content .consult-input-box input[type="submit"]:hover {
-    background-color: #12d0e1;
+.contact-form-consult-Now button {
+    font-size: 18px;
+    color: #fff;
+    width: 70%;
+    background: transparent;
+    font-weight: 600;
+    transition: 0.3s ease;
+    padding: 14px 15px;
+    color: black;
+    text-align: center;
+    margin-left: 10%;
+    border: 3px solid #69275c;
+}
+.contact-form-consult-Now button:hover {
+    color: #fff;
+    background-color: #3fbbc0;
+    transition: 0.5s ease;
     border: 3px solid #fff;
+}
+/* #hero .btn_get_started {
+    font-weight: 500;
+    font-size: var(--FontSize14);
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 50px;
+    margin: 10px;
+    border: 2px solid #060606;
+    background-color: transparent;
     color: #fff;
 }
 
-@media (max-width: 1000px) {
-    .consult-content .consult-image-box {
-        max-width: 70%;
+#hero .btn_get_started:hover {
+    background-color: #3fbbc0;
+    border: 2px solid #e7e9e9
+} */
+@media(max-width:736px) {
+    .contact-form-consult-Now .main-consult-Now {
+        flex-direction: column;
     }
-.consult-specialities input::placeholder {
-    color: black;
-    font-size: 16px;
-    padding: 0;
-}
-    .consult-content {
-        padding: 10px 0;
-    }
-}
 
-@media (max-width: 900px) {
-    .consult-content .consult-image-box {
+    .contact-form-consult-Now form {
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+    }
+
+    .form-img-consult-Now {
         display: none;
+        /* border-radius: 0;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        order: 2; */
     }
 
-    .consult-content form {
-        width: 100%;
-        margin-left: 30px;
+    .content-consult-Now {
+        order: 1;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
     }
 }
-

@@ -93,7 +93,13 @@ a:hover {
     outline: 2px solid rgb(240, 238, 238);
     background-color: #1bbcc2;
     color: #fff;
-    
+}
+
+.nav2-btn a{
+    color: black;
+}
+.nav2-btn a:hover{
+    color: #fff;
 }
 
 .nav2-btn2{
