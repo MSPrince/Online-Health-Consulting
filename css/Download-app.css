@@ -7,7 +7,18 @@
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
 }
-
+:root{
+        /* ---font size--- */
+            --FontSize36: 36px;
+            --FontSize30: 30px;
+            --FontSize24: 24px;
+            --FontSize20: 20px;
+            --FontSize18: 18px;
+            --FontSize16: 16px;
+            --FontSize14: 14px;
+            --FontSize13: 13px;
+            --FontSize12: 12px;
+}
 .body-down {
     background: linear-gradient(to bottom, #175d69 23%, #330c43 95%);
 }
@@ -28,16 +39,17 @@
 }
 
 .hero-down h2 {
-    font-size: 2.5rem;
+    font-size: var(--FontSize30);
     margin-bottom: 20px;
     color: black;
 }
 
 .hero-down p {
-    font-size: 1.2rem;
+    font-size:var(--FontSize14);
     margin-bottom: 20px;
     color: #fff;
     text-align: left;
+    
 }
 
 .hero-section-down .img-down img {
@@ -64,11 +76,11 @@
 
 .buttons .ios-down {
     /* background-color: #47b2e4; */
-    width: 150px;
+    width: 100px;
 }
 
  .buttons .android-down {
-width: 150px;
+width: 100px;
 }
 
 

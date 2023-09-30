@@ -21,6 +21,7 @@
     --FontSize16:16px;
     --FontSize14:14px;
     --FontSize13:13px;
+    --FontSize12:12px;
 
 
 }
@@ -290,18 +291,26 @@ a:hover {
     margin-bottom: 5px;
 }
 
-.logos-slide h1,
+.logos-slide h1 {
+    text-align: center;
+    font-size: var(--FontSize14);
+    line-height: 18px;
+    font-weight: 500;
+}
+.logos-slide 
 p {
     text-align: center;
-    font-size: 12px;
+    font-size:var(--FontSize13);
     line-height: 18px;
-    font-weight: 100;
+    font-weight: 500;
+    color: black;
 }
 
 .logos-slide a {
     text-decoration: none;
     text-align: center;
-    font-size: 13px;
+    font-size: var(--FontSize14);
+    font-weight: 00;
     line-height: 20px;
     color: #0d4fe9;
 }
@@ -317,12 +326,12 @@ p {
     /* border: 2px solid red; */
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
-/* < !--------------------------------------------------------------------- top speciality card container End --------------------------------------------------------------------------------> */
+/* < !----------------------------- top speciality card container End --------------------------------------------------------------------------------> */
 
 
 
 
-/* < !-- ------------------------------------------------------------------health problem card container start --------------------------------------------------------------------------------> */
+/* < !-- ----------------------------health problem card container start --------------------------------------------------------------------------------> */
 .health-corner {
     display: flex;
     justify-content: space-between;
@@ -331,14 +340,15 @@ p {
     margin-top: 14px;
 }
 .Comman-health h2{
-   font-size: 25px;
+   font-size: var(--FontSize30);
    font-weight: 700;
 }
 .Comman-health p{
     text-align: left;
     line-height: 10px;
-    margin-top: -9px;
-    font-size: 13px;
+    margin-top: 2px;
+    font-size: var(--FontSize18);
+    color: #787887;
     /* border: 2px solid red; */
 }
 .card-slider-container1 {
@@ -379,26 +389,27 @@ p {
 }
 
 .card-content1 h3 {
-    font-size: 15px;
+    font-size: var(--FontSize14);
     text-align: center;
     margin-top: 10px;
     /* border: 2px solid red; */
 }
 
-.card-content1 p a{
-    font-size: 13px;
+.card-content1 p {
+    font-size: 14px;
     line-height: 30px;
     text-align: center;
-    color: #0d4fe9;
+    font-weight:700;
+    color: #0d4cdd;
+   
+}
+.card-content1 p a{
+    font-size: 14px;
+    color: #0d4cdd;
    
 }
 .card-content1 p a:hover {
 color: rgb(205, 23, 23);
-}
-
-
-.card-content1 p a {
-    text-decoration: none;
 }
 
 /* Buttons for navigation */
@@ -423,18 +434,25 @@ color: rgb(205, 23, 23);
 .next-button1 {
     right: 10px;
 }
-/* < !-- ------------------------------------------------------------------health problem card container End --------------------------------------------------------------------------------> */
+/* < !-- -------------------------------health problem card container End --------------------------------------------------------------------------------> */
 
 
 
-/* < !---------------------------------------------------------------------offers card container start --------------------------------------------------------------------------------> */
+/* < !-----------------------------------offers card container start --------------------------------------------------------------------------------> */
 
-/* < !---------------------------------------------------------------------offers card container End --------------------------------------------------------------------------------> */
-
-
+/* < !-----------------------------------offers card container End --------------------------------------------------------------------------------> */
 
 
-/* < !-- -------------------------------------------------------------------our doctor start------------------------------------------------------------------------------ --> */
+
+
+/* < !-- ---------------------------------our doctor start------------------------------------------------------------------------------ --> */
+.our-doctor-heading h1{
+    font-size: var(--FontSize30);
+        font-weight: 700;
+        padding-left: 20px;
+        margin-bottom: 1px;
+}
+
 .container-our-doctor {
     /* height: 100vh; */
     width: 100%;
@@ -476,7 +494,7 @@ color: rgb(205, 23, 23);
 .slide p {
     text-align: center;
     padding: 0 160px;
-    font-size: 14px;
+    font-size: var(--FontSize14);
     font-weight: 400;
     color: #333;
 }
@@ -494,28 +512,28 @@ color: rgb(205, 23, 23);
 }
 
 .details .job {
-    font-size: 12px;
+    font-size: var(--FontSize12);
     font-weight: 400;
     color: #333;
 }
 
 /* swiper button css */
 .nav-btn-our-doctor {
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
     transform: translateY(30px);
-    background-color: rgba(225, 12, 12, 0.1);
+    background-color: rgb(231, 133, 133);
     transition: 0.2s;
 }
 
 .nav-btn-our-doctor:hover {
-    background-color: rgba(13, 14, 14, 1);
+    background-color: rgb(11, 235, 235);
 }
 
 .nav-btn-our-doctor::after,
 .nav-btn-our-doctor::before {
-    font-size: 20px;
+    font-size: 7px;
     color: #fff;
 }
 
@@ -538,7 +556,7 @@ color: rgb(205, 23, 23);
 }
 
 
-/* < !-- -------------------------------------------------------------------our doctor End --------------------------------------------------------------------------------> */
+/* < !-- -----------------------------------our doctor End --------------------------------------------------------------------------------> */
 
 
 
@@ -551,13 +569,13 @@ color: rgb(205, 23, 23);
 
 
 
-/* <!--------------------------------------------------------------------- trust metrics section start --------------------------------------------------------------------------------> */
+/* <!--------------------------------------------- trust metrics section start --------------------------------------------------------------------------------> */
   .award-section h3 {
-      font-size: 20px;
+      font-size: var(--FontSize24);
   }
 
   .award-section h6 {
-      font-size: 14px;
+      font-size: var(--FontSize18);
   }
 /* <!--------------------------------------------------------------------- trust metrics section End --------------------------------------------------------------------------------> */
 
@@ -567,7 +585,7 @@ color: rgb(205, 23, 23);
 .benifit-heading {
     padding-left: 20px;
     font-weight: 700;
-    font-size: 25px;
+    font-size: var(--FontSize30);
     line-height: 45px;
 }
 
@@ -584,13 +602,14 @@ color: rgb(205, 23, 23);
 }
 
 .benifit-card h3 {
-    font-size: 20px;
+    font-size: var(--FontSize20);
     line-height: 20px;
+    color: #414146;
 }
 
 .benifit-card p {
     font-size: 16px;
-    color: #3fbbc0;
+    color: #787887;
     opacity: 1;
     line-height: 20px;
 }
@@ -605,13 +624,7 @@ color: rgb(205, 23, 23);
 
 
 
-/* < !-- -------------------------------------------------------------------testimonial card start --------------------------------------------------------------------------------> */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-}
+/* < !-- -----------------------------------testimonial card start --------------------------------------------------------------------------------> */
 
 .main-review {
     display: flex;
@@ -698,21 +711,21 @@ color: rgb(205, 23, 23);
     color: black;
     font-size: 13px;
 }
-/* < !--------------------------------------------------------------------- testimonial card End------------------------------------------------------------------------------ --> */
+/* < !------------------------------------- testimonial card End------------------------------------------------------------------------------ --> */
 
-/* < !--------------------------------------------------------------------- faq section start --------------------------------------------------------------------------------> */
+/* < !-------------------------------------- faq section start --------------------------------------------------------------------------------> */
 
-/* < !-- -------------------------------------------------------------------faq section end --------------------------------------------------------------------------------> */
-
-
-
-/* < !---------------------------------------------------------------------why-stil-delay start------------------------------------------------------------------------------ --> */
-
-/* < !----------------------------------------------------------------------why-stil-delay end --------------------------------------------------------------------------------> */
+/* < !-- -------------------------------------faq section end --------------------------------------------------------------------------------> */
 
 
 
-/* < !-- -------------------------------------------------------------------health queries section start------------------------------------------------------------------------------ --> */
+/* < !----------------------------------------why-stil-delay start------------------------------------------------------------------------------ --> */
+
+/* < !---------------------------------------why-stil-delay end --------------------------------------------------------------------------------> */
+
+
+
+/* < !-- --------------------------------------health queries section start------------------------------------------------------------------------------ --> */
 
 /* < !-- -------------------------------------------------------------------health queries section end --> */
 
