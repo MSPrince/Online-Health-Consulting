@@ -208,6 +208,7 @@ a:hover {
     background-color: transparent;
     color: #0e0e0e;
     height: 40px;
+
 }
 .btn_get_started:hover {
     background-color: #3fbbc0;
@@ -251,7 +252,7 @@ a:hover {
 .logos {
     overflow: hidden;
     padding: 20px 0;
-    background: white;
+    /* background: white; */
     white-space: nowrap;
     position: relative;
     /* margin-top: 100px; */
@@ -286,15 +287,17 @@ a:hover {
     margin-left: 15px;
     display: inline-block;
     animation: 10s slide infinite linear;
+    /* border: 2px solid red; */
 }
 
 .logos-slide img {
-    height: 70px;
-    width: 70px;
+    height: 80px;
+    width: 80px;
     /* margin: 0 20px; */
     border-radius: 50%;
     text-align: center;
     margin-bottom: 5px;
+    margin-left: 25px;
 }
 
 .logos-slide h1 {
@@ -325,12 +328,16 @@ p {
 }
 
 .Specialities-Card {
-    width: 100px;
-    height: 140px;
+    width: 150px;
+    height: 180px;
     padding: 10px;
     border-radius: 10px;
     /* border: 2px solid red; */
-    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    /* box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px; */
+}
+
+.Specialities-Card:hover {
+box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 /* < !----------------------------- top speciality card container End --------------------------------------------------------------------------------> */
 
@@ -640,13 +647,13 @@ color: rgb(205, 23, 23);
     width: 100%;
     margin-top: 10px;
     /* border: 2px solid red; */
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  
 }
 
 .full-boxer-review {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     /* border: 2px solid red; */
@@ -661,7 +668,7 @@ color: rgb(205, 23, 23);
 }
 
 .comment-box-review:hover {
-    margin-top: 12px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .comment-box-review {
@@ -726,7 +733,29 @@ color: rgb(205, 23, 23);
 
 
 /* < !----------------------------------------why-stil-delay start------------------------------------------------------------------------------ --> */
+ .btn_get_started-2 {
+     font-weight: 500;
+     font-size: var(--FontSize13);
+     letter-spacing: 1px;
+     display: inline-block;
+     padding: 8px 20px;
+     border-radius: 50px;
+     margin: 10px;
+     border: 2px solid #f1ecec;
+     background-color: transparent;
+     color: #fff;
+ }
 
+ .btn_get_started-2:hover {
+     background-color: #3fbbc0;
+     border: 2px solid #e7e9e9;
+     color:#fff;
+ }
+
+ .why-delay{
+    display: flex;
+    align-items: center;
+ }
 /* < !---------------------------------------why-stil-delay end --------------------------------------------------------------------------------> */
 
 
