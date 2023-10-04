@@ -1,0 +1,47 @@
+.carousel-caption >h3 {
+    color: brown !important;
+    font-weight: 600;
+}
+.carousel-caption >p {
+     font-size: 14px;
+     color: rgba(9, 248, 108,1);
+     font-weight: 600;
+}
+
+.banner-medicine{
+    margin-top: -40px;
+}
+
+
+
+
+
+
+
+.nav-card-layout>div {
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    overflow: auto;
+    /* padding: 2px; */
+    /* justify-content: center; */
+    /* border: 2px solid red; */
+    margin: 10px 5px;
+}
+
+.nav-card-layout>div::-webkit-scrollbar {
+    display: none;
+}
+
+.nav-card-layout>div div {
+    padding: 8px 15px;
+    border-radius: 10px;
+}
+
+.nav-card-layout>div div:hover {
+    box-shadow: lightgray 0 0 6px;
+}
+
+.nav-card-layout>div img {
+    width: 200px;
+}

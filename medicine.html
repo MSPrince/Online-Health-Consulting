@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link bootstrap css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <!-- bootstrap font -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- favicon icon start -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./image/Favicon-Icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./image/Favicon-Icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./image/Favicon-Icon/favicon-16x16.png">
+    <link rel="manifest" href="./image/Favicon-Icon/site.webmanifest">
+    <link rel="mask-icon" href="./image/Favicon-Icon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#00a300">
+    <meta name="msapplication-TileImage" content="./image/Favicon-Icon/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- favicon icon End -->
+
+    <!-- swipper css file link  Start-->
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+    <!-- swipper css file link End -->
+    <title>A Doctor's Diary</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/chatbot.css">
+    <link rel="stylesheet" href="./css/Download-app.css">
+    <link rel="stylesheet" href="./css/medicine section/medicine.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+</head>
+
+<body>
+    <div class="containerfluid">
+        <!------------------------------------- topbar Start-------------------------------------------- -->
+        <div id="topbar" class="d-flex align-items-center ">
+            <div class="container d-flex align-items-center justify-content-center justify-content-md-between">
+                <div class="align-items-center d-none d-md-flex">
+                    <i class="fa fa-clock"></i> Monday - Sunday, 24*7
+                </div>
+                <div class="d-flex align-items-center">
+                    <i class="fa fa-phone"></i> Call us now +91-789-717-3138
+                </div>
+            </div>
+        </div>
+        <!-------------------------------------- topbar end ------------------------------------------------------>
+
+        <!---------------------------------------navigation Start----------------------------------------------- ----->
+        <nav class="navbar navbar-expand-lg navbar-light navbar2 ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="./image/logo/Screenshot 2023-09-27 113041.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto  mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                Video Consult</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Medicine
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="../Doctor's Pharmacy/index.html">Order Medicine</a>
+                                </li>
+                                <li><a class="dropdown-item" href="#">Medicine Detail</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Medicine Dose</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#" tabindex="-1" aria-disabled="false">Find Doctor</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Comman Disease</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <button class="btn nav2-btn" type="submit"><a href="consult-now.html">Make An
+                                Appoiment</a></button>
+                    </form>
+                    <button class="btn nav2-bt2"><a href="login.html"><i class="bi bi-person-circle"
+                                style="font-size: 25px;"></i></a></button>
+                </div>
+            </div>
+        </nav>
+        <!----------------------------------------navigation  end----------------------------------------------- -->
+
+
+        <!-- ---------------------------------------banner Start-------------------------------------------------------------- -->
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <!-- <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div> -->
+            <div class="carousel-inner">
+                <div class="carousel-item active banner-medicine">
+                    <img src="./image/medicine section/banner/7466908.jpg" class="d-block w-100" alt="..."
+                        height="500px">
+                    <div class="carousel-caption d-none d-md-block" style="margin-bottom: -50px;">
+                        <h3>Reliable on time home delivery
+                        </h3>
+                        <p>Our in-house pharmacists ensure your medicines
+                            reach you when you need them</p>
+                    </div>
+                </div>
+                <div class="carousel-item banner-medicine">
+                    <img src="./image/medicine section/banner/Screenshot 2023-10-05 014449.png" class="d-block w-100"
+                        alt="..." height="500">
+                    <div class="carousel-caption d-none d-md-block" style="margin-bottom: -50px;">
+                        <h3>Genuine medicines
+                            </h5>
+                            <p>All medicines & health products are sourced from A Doctor's Diary's
+                                trusted network of verified pharmacies and medical stores.</p>
+                    </div>
+                </div>
+                <div class="carousel-item banner-medicine ">
+                    <img src="./image/medicine section/banner/Screenshot 2023-10-05 014715.png" class="d-block w-100"
+                        alt="..." height="500px">
+                    <div class="carousel-caption d-none d-md-block" style="margin-bottom: -50px;">
+                        <h3>Delivering in 100+ cities all over India
+                        </h3>
+                        <p>From Amritsar to Port Blair, we home deliver medicines & health
+                            products all over India</p>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- ---------------------------------------banner end-------------------------------------------------------------- -->
+
+
+        <!------------------------------------------ health condition Section Start------------------------------------------------>
+        <div class="container-fluid mt-4">
+            <h3 class="ps-4">Health Condition</h3>
+            <div class="nav-card-layout">
+                <div>
+                    <div>
+                        <a href=""> <img src="./image/medicine section/health condition/h-c-1.3dcef828.png" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a href=""> <img src="./image/medicine section/health condition/h-c-2.17e8a461.png" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a href=""> <img src="./image/medicine section/health condition/h-c-3.40e50509.png" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a href=""> <img src="./image/medicine section/health condition/444.jpg" alt="">
+                        </a>
+                    </div>
+                    <div><a href=""> <img src="./image/medicine section/health condition/h-c-5.6d31dcec.png" alt="">
+                        </a> </div>
+                    <div>
+                        <a href=""> <img src="./image/medicine section/health condition/h-c-6.d8449be7.png" alt="">
+
+                        </a>
+                    </div>
+                    <div>
+                        <a href=""> <img src="./image/medicine section/health condition/h-c-7.32e91abb.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------------------------------------------ health condition Section End------------------------------------------------>
+
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut error suscipit vitae ullam saepe, perferendis
+        accusamus ad distinctio exercitationem quo vero dicta eveniet autem pariatur? Numquam et repellendus non,
+        accusantium porro deserunt! Laboriosam repudiandae sit distinctio alias cumque dolore quo eos suscipit
+        consequatur voluptas sed officiis quia, nobis reiciendis, eaque id inventore minus consequuntur, vel beatae
+        temporibus autem. Expedita quod asperiores velit vel vero neque suscipit voluptas quidem quas? Nam, consequuntur
+        quos voluptate inventore temporibus veniam assumenda iusto vero perferendis dolorum sunt odio dolores repellat
+        natus voluptatum fugiat quasi non ratione illum, atque velit explicabo. Ratione debitis voluptas voluptatum modi
+        beatae, ab iste! Autem illum at voluptates modi fugit corrupti? Ipsum necessitatibus asperiores tenetur nulla
+        illum. Quibusdam officia non, itaque voluptatum nobis soluta esse nulla eaque reiciendis voluptas? Amet libero
+        at nemo aut delectus iste illo neque molestiae commodi laborum minus ratione, voluptatem perspiciatis repellat
+        nesciunt excepturi saepe nostrum sapiente praesentium maiores harum doloribus eaque, voluptate explicabo.
+        Expedita perspiciatis consequatur autem veniam, repellat, explicabo iusto voluptatibus at illum vitae dolores
+        quidem modi eligendi. Voluptatum repellat nesciunt eveniet. Unde assumenda magni, id maiores officiis quisquam
+        voluptatum. Neque, corporis! Tempore, maiores. Quis sit cupiditate ratione corrupti ipsa, consequatur amet,
+        dolore laudantium at odio, repellendus numquam possimus eius dignissimos aperiam! Harum voluptates, assumenda
+        distinctio saepe facilis sequi blanditiis non aperiam, eaque labore esse cum. Aliquam dolores perspiciatis,
+        deserunt blanditiis harum error corrupti inventore sunt provident, ipsam eius magni odio repudiandae veniam
+        iste. Officia cum veritatis rerum eos eligendi, aliquam saepe at deserunt sequi soluta. Nihil tempora esse
+        commodi molestiae modi. Magnam consequuntur ducimus expedita praesentium molestias sint ut tempora, totam velit
+        veritatis eos quam sed distinctio inventore vitae enim, nisi illo facere dolores tenetur! Illo voluptatem ipsum
+        error officia culpa dolore, mollitia architecto deserunt sunt! Officia iusto minus, non veritatis voluptas
+        aspernatur animi numquam libero officiis quaerat rem quas possimus cum! Distinctio omnis quidem dolore eaque
+        tempore dolores molestias quisquam tempora exercitationem sapiente placeat, accusantium nulla nam mollitia
+        doloribus accusamus! Facilis suscipit delectus atque quibusdam ducimus illo iste similique veritatis, molestias
+        vero molestiae tempore laudantium, recusandae quidem, voluptate quo asperiores aspernatur numquam ipsam harum
+        animi. Voluptates maiores facere earum possimus, deserunt recusandae modi architecto consequuntur, mollitia
+        voluptas, velit culpa. Cumque sed expedita, impedit unde nesciunt eum delectus quis veritatis obcaecati. Quaerat
+        repellendus modi blanditiis provident dolores eligendi et distinctio deserunt qui reiciendis repudiandae, facere
+        nulla nobis possimus, sequi nemo quae placeat iusto soluta? Labore numquam excepturi quae voluptatibus?
+        Provident at amet maxime nihil quasi totam magnam praesentium deserunt commodi ea cumque, est magni consequatur
+        odit expedita natus quidem unde aspernatur! Quae voluptas sunt dicta debitis laboriosam! Officia ipsum
+        recusandae ut deserunt quia. Labore numquam voluptatibus quam. Dolores nihil labore velit totam numquam incidunt
+        sequi facilis odio. Eum alias hic quis, voluptate mollitia sint ea modi non earum odio! Nam possimus eius hic
+        ratione similique exercitationem et ea rerum dignissimos veniam mollitia, maiores voluptates nobis ipsa, velit
+        temporibus? Optio ratione praesentium veniam labore nostrum corrupti inventore officiis facilis sed? Explicabo
+        esse, expedita laborum a quam cumque iste sunt molestias aliquid fuga commodi, ratione nihil voluptatum
+        consectetur at doloremque quas. Ab nesciunt atque aut quasi quia, reiciendis nihil quaerat commodi modi quidem
+        nisi voluptate? Itaque magnam quo ipsum earum, eum minima consequuntur officiis consectetur obcaecati
+        consequatur corporis in accusamus, quae placeat beatae. Nobis, assumenda omnis. Tempore adipisci hic quos illum
+        beatae. Magnam minus saepe, numquam earum facere impedit quos consequuntur quam fugiat natus cumque et adipisci
+        voluptatum sint ducimus qui ab possimus sequi debitis ipsa hic provident quo rem eos! Alias officiis obcaecati
+        recusandae eaque quo numquam perspiciatis nihil dicta ipsam odit! Officia eius dolores soluta praesentium,
+        mollitia atque laudantium molestiae dolorum nisi recusandae quam ipsum veniam minus suscipit quod beatae placeat
+        illum assumenda a dolore ullam architecto deserunt debitis? Cum omnis officia pariatur minus dolorum quod illum
+        alias est mollitia cupiditate, consectetur accusamus at atque cumque, error ullam odit ad dignissimos, ab
+        consequatur rerum dolores. Aliquam, nobis placeat illum voluptatum magni possimus. Repudiandae ea molestiae
+        pariatur labore commodi vel eius nobis voluptatum dolores. Laudantium recusandae fugiat quibusdam minus veniam
+        culpa doloremque vel voluptatum eius reprehenderit enim modi laboriosam voluptas numquam, quae unde explicabo
+        dicta accusamus, nostrum, expedita praesentium iusto? Molestiae, omnis blanditiis architecto inventore hic iste
+        nostrum eligendi dicta maxime quos ipsam sunt vero pariatur debitis veniam sint corporis aspernatur eius.
+        Corporis neque beatae temporibus aperiam itaque nihil cupiditate, dolores exercitationem, dolore in ab vitae
+        praesentium quas consequatur sapiente! Dolorum inventore ad in iure illum officiis nostrum alias provident quis,
+        qui eos maxime, aperiam maiores accusamus quo repellat facilis, iste culpa quia dolor atque ipsum laudantium.
+        Quas unde impedit accusamus cumque, dolores assumenda repellat similique fugiat commodi et iure, voluptas culpa!
+        Culpa natus quos vel voluptates. Nostrum esse eveniet commodi. Laudantium esse fugiat ipsum! Doloribus
+        perspiciatis nulla error. Dolorum, mollitia numquam. Inventore modi maiores ea repudiandae obcaecati illum atque
+        eum ab ipsa necessitatibus pariatur consectetur numquam, voluptate expedita suscipit perspiciatis, dolores, eos
+        accusantium molestias non odit sunt? Adipisci accusantium nisi quae, corrupti sunt nihil veritatis unde.
+        Laboriosam repellat, aut qui dolores minus atque natus est odio, provident eaque nesciunt ipsum molestias
+        necessitatibus blanditiis possimus perferendis voluptatum modi harum? Sequi, sint saepe modi adipisci ut minima
+        natus qui inventore distinctio aspernatur ad debitis rerum iusto? Sit omnis modi dignissimos, explicabo facere,
+        quia quis doloremque nulla minima consequatur distinctio rem pariatur placeat magni tenetur debitis error, saepe
+        aliquam nisi officia a? Iusto, repudiandae officia vitae ullam dolor blanditiis sequi quia consequuntur velit,
+        reiciendis illo. A quo, nisi atque consequatur unde doloribus ipsa necessitatibus iusto sed aspernatur libero
+        aliquam mollitia ut velit commodi quas alias amet nam illum, voluptas excepturi tempora minima. Eius id repellat
+        dolores dolore totam maiores facilis doloribus ipsum ex, numquam commodi odit quia consequatur, exercitationem
+        saepe nobis. Mollitia consequuntur minima nesciunt eum ab dolorem suscipit quos culpa ratione fuga asperiores
+        debitis laborum est eaque illum reprehenderit id adipisci, deleniti eveniet facere, molestiae optio! Blanditiis
+        fugiat sapiente voluptatum pariatur, amet atque nesciunt fuga sunt culpa! Deserunt fuga perspiciatis ullam
+        reiciendis odit totam qui nisi?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!------------------------------------------------------------- chatbot Start ------------------------------------------------------------------------>
+        <button class="chatbot-toggler">
+            <span class="material-symbols-rounded"><i class="bi bi-chat-dots-fill"></i></span>
+            <span class="material-symbols-outlined"><i class="bi bi-x-circle-fill"></i></span>
+        </button>
+        <div class="chatbot">
+            <header>
+                <h2>A Doctor's Diary Chatbot</h2>
+                <span class="close-btn material-symbols-outlined"><i class="bi bi-x-circle-fill"></i></span>
+            </header>
+            <ul class="chatbox">
+                <li class="chat incoming">
+                    <span class="material-symbols-outlined">@MS-17</span>
+                    <p>Hi there 👋<br>How can I help you today?</p>
+                </li>
+            </ul>
+            <div class="chat-input">
+                <textarea placeholder="Enter a message..." spellcheck="false" required></textarea>
+                <span id="send-btn" class="material-symbols-rounded">send</span>
+            </div>
+        </div>
+        <!----------------------------------------------------------------- chatbot End ------------------------------------------------------------------------->
+
+
+        <!-- ----------------------------link bootstrap js file---------------------------------------- -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+            crossorigin="anonymous"></script>
+        <!-- --------------------------------link fontawsome ------------------------------------------------------>
+        <script src="https://kit.fontawesome.com/b3263a74b4.js" crossorigin="anonymous"></script>
+        <!-- --------------------chatbot js file -->
+        <script src="./js/chatbot.js"></script>
+
+        <!-- main js file -->
+        <script src="./js/script.js"></script>
+        <!-- Swiper JS -->
+        <script src="./js/swiper-bundle.min.js"></script>
+
+        <!-- JavaScript our doctor -->
+        <script src="./js/Our-doctor.js"></script>
+</body>
+
+</html>
