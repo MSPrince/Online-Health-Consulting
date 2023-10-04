@@ -5,27 +5,27 @@
     right: 35px;
     outline: none;
     border: none;
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
     display: flex;
     cursor: pointer;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    background: #724ae8;
+    background: #dededf;
     transition: all 0.2s ease;
     z-index: 44656;
 
 }
 
 
-.material-symbols-outlined i{
-     font-size: 50px;
+/* .material-symbols-outlined i{
+     font-size: 5px;
      color: aqua;
 
-}
+} */
 .material-symbols-rounded i {
-    font-size: 65px;
+    font-size: 35px;
         color: rgb(255, 0, 0);
         background-color: transparent;
 }
