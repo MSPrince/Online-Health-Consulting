@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .carousel-caption >h3 {
     color: brown !important;
     font-weight: 600;
@@ -10,6 +16,7 @@
 
 .banner-medicine{
     margin-top: -40px;
+    /* border: 2px solid red; */
 }
 
 
@@ -44,4 +51,284 @@
 
 .nav-card-layout>div img {
     width: 200px;
+}
+
+
+
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------- */
+.medi-know-your-medicine{
+    background-color: #e7f1f7;
+   margin: 15px 0;
+}
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.container5 {
+    position: relative;
+    width: 100%;
+    min-height: 350px;
+    background-color: #397093;
+    margin-top: -25px;
+    /* border: 2px solid red; */
+
+
+}
+
+.container5 .contents-wraper5 {
+    width: 70%;
+    min-height: inherit;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.contents-wraper5 .header h1 {
+    position: relative;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.contents-wraper5 .header h1::before {
+    content: '';
+    width: 200px;
+    height: 2px;
+    background-color: #006994;
+    border-radius: 15px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10px;
+}
+
+.contents-wraper5 .testRow {
+    width: 100%;
+    min-height: inherit;
+    position: relative;
+    overflow: hidden;
+}
+
+.testRow .testItem {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.testRow .testItem:not(.active) {
+    top: 0;
+    left: -100%;
+}
+
+.testRow .testItem img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 5px;
+    outline: 2px solid #006994;
+    outline-offset: 2px;
+        border: 2px solid red;
+        margin-top: -50px;
+}
+
+.testRow .testItem h3 {
+    font-size: 25px;
+    font-style: italic;
+    padding: 7px;
+}
+
+.testRow .testItem h4 {
+    /* font-style: italic; */
+}
+
+.testRow .testItem p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    padding: 10px;
+}
+
+.contents-wraper5 .indicators {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    top: 90%;
+    transform: translateX(-50%);
+    padding: 5px;
+    cursor: pointer;
+}
+
+.contents-wraper5 .indicators .dot {
+    width: 15px;
+    height: 15px;
+    margin: 0px 3px;
+    border: 3px solid #aaa;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.5s ease;
+}
+
+.contents-wraper5 .indicators .active {
+    background-color: #006994;
+}
+
+@keyframes next1 {
+    from {
+        left: 0%;
+    }
+
+    to {
+        left: -100%;
+    }
+}
+
+@keyframes next2 {
+    from {
+        left: 100%;
+    }
+
+    to {
+        left: 0%;
+    }
+}
+
+@keyframes prev1 {
+    from {
+        left: 0%;
+    }
+
+    to {
+        left: 100%;
+    }
+}
+
+@keyframes prev2 {
+    from {
+        left: -100%;
+    }
+
+    to {
+        left: 0%;
+    }
+}
+
+@media(max-width: 550px) {
+    .container5 .contents-wraper5 {
+        width: 90%;
+    }
+
+    .contents-wraper5 .header h1 {
+        font-size: 32px;
+    }
+
+    .testRow .testItem h3 {
+        font-size: 26px;
+    }
+
+    .testRow .testItem p {
+        font-size: 16px;
+        letter-spacing: initial;
+        line-height: initial;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.medi-seo-section> div > p >span{
+    font-weight: 600;
+    font-size: 15px;
+}
+.medi-seo-section> div > p{
+    /* font-weight: 700; */
+    font-size: 13px;
+}
+.medi-seo-section> div > h4{
+    font-weight: 800;
+    font-size: 20px;
+}
+.medi-seo-heading{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.medi-seo-subheading{
+    font-size: 13px;
+}
+.medi-seo-section >div>div{
+    padding-left: 15px;
+}
+.medi-seo-section div{
+    padding-left: 15px;
+}
+
+.medi-seo-section{
+    margin-top: 10px;
+    padding: 15px 0;
+    height: 400px;
+    /* border: 2px solid red; */
+    overflow: scroll;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.medi-seo-section::-webkit-scrollbar{
+    display: none;
 }
