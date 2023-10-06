@@ -84,7 +84,7 @@
     margin: 4px;
     /* box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset; */
     /* box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; */
-    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     /* border: 2px solid red; */
 }
 
@@ -121,3 +121,265 @@
     border-radius: 50%;
 }
 /* --------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
+
+
+/* < !-- -------------------------------------------------------Lab-Partner section----------------------------------------------------------- --> */
+.lab-partner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 20px;
+    /* border: 2px solid red; */
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    padding: 10px;
+    flex-wrap: wrap;
+    background-color: aqua;
+    margin-top: -30px;
+}
+
+.lab-partner>div p {
+    line-height: 10px;
+}
+
+.lab-partner>div img {
+    border-radius: 15px;
+}
+
+/* < !-- -------------------------------------------------------Lab-Partner section----------------------------------------------------------- --> */
+
+
+
+
+/* < !-- ---------------------------------------------------horizontial Line Start----------------------------------------------------------- --> */
+.lab-partner-down {
+    height: 1px;
+    width: 100%;
+    /* margin: auto; */
+}
+
+/* < !-- ---------------------------------------------------horizontial Line End----------------------------------------------------------- --> */
+
+
+
+
+
+/* < !-- ----------------------------------------------------------Popular Lab Test Start--------------------------------------------------------------- --> */
+.Mens-Health {
+    width: 300px;
+    margin: 5px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.Mens-Health>h6 {
+    font-size: 16px;
+    text-align: left;
+}
+
+.text-age {
+    color: rgb(62, 51, 51);
+    text-align: left;
+    line-height: 15px;
+    font-size: 13px;
+}
+
+.text-number {
+    text-align: left;
+    font-weight: 500;
+}
+
+.mens-rate {
+    text-align: left;
+    font-weight: 600;
+}
+
+.Mens-Health a {
+    text-decoration: none;
+    font-weight: 700;
+    text-align: right !important;
+}
+
+
+
+
+
+.Mens-Health-nav-card-layout>div {
+    display: flex;
+    text-align: center;
+    overflow: auto;
+    margin: 10px 5px;
+
+}
+
+.Mens-Health-nav-card-layout>div::-webkit-scrollbar {
+    display: none;
+}
+
+.Mens-Health-nav-card-layout>div div {
+    padding: 8px 15px;
+    border-radius: 10px;
+}
+
+.Mens-Health-nav-card-layout>div div:hover {
+    box-shadow: lightgray 0 0 6px;
+}
+
+.Mens-Health-nav-card-layout>div img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* border: 1px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    width: 250px;
+}
+
+/* < !-- ----------------------------------------------------------Popular Lab Test End--------------------------------------------------------------- --> */
+
+
+
+
+
+/* < !--------------------------------------------------------Popular Lab Test Section Start------------------------------------------------------------------- --> */
+.Medical-tests {
+    min-width: 320px;
+    /* border: 2px solid red; */
+    margin: 5px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.Medical-tests>div {
+    justify-content: start;
+    align-items: center;
+}
+
+.Medical-tests>div {
+    justify-content: start;
+    align-items: center;
+}
+
+.Medical-tests>div>h6 {
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+.Medical-tests hr {
+    margin: 5px 0 5px 0;
+    color: gray;
+    height: 1px;
+}
+
+.Medical-tests p {
+    font-size: 13px;
+    text-align: left;
+    font-weight: 500;
+    line-height: 17px;
+}
+
+.Medical-tests>p>span {
+    font-size: 10px;
+    /* line-height: 1px; */
+    font-weight: 400;
+}
+
+
+
+.Top-booked-Medical-tests>div {
+    display: flex;
+    text-align: center;
+    overflow: auto;
+    margin: 10px 5px;
+
+}
+
+.Top-booked-Medical-tests>div::-webkit-scrollbar {
+    display: none;
+}
+
+.Top-booked-Medical-tests>div div {
+    padding: 8px 15px;
+    border-radius: 10px;
+}
+
+.Top-booked-Medical-tests>div div:hover {
+    box-shadow: lightgray 0 0 6px;
+}
+
+.Top-booked-Medical-tests>div img {
+    border: 1px solid red;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* < !--------------------------------------------------------Popular Lab Test Section end------------------------------------------------------------------- --> */
+
+
+
+
+
+
+.Why-book-with-us>div>div>div>h5 {
+    font-size: 14px;
+    margin-bottom: px;
+}
+
+.Why-book-with-us>div>div>div>p {
+    font-size: 11px;
+    line-height: 14px;
+}
+
+.Why-book-with-us>div>div>div>img {
+    width: 50px;
+
+}
+
+.We-do-great>div>div img {
+    width: 50px;
+    /* border: 2px solid red; */
+}
+
+.We-do-great>div>div h4 {
+    font-size: 15px;
+    margin-top: 20px;
+    /* border: 2px solid red; */
+}
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------  */
+.lab-seo-section p {
+    font-size: 12px;
+}
+
+.lab-seo-section span {
+    font-weight: 600;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------  */
+
+.footer-last p {
+    font-size: 12px;
+}
+
+.footer-last span {
+    font-size: 12px;
+    color: rgb(38, 233, 16);
+}
+
+.footer-last a {
+    text-decoration: none;
+}
