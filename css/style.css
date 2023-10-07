@@ -849,10 +849,6 @@ color: rgb(205, 23, 23);
 }
 
 @media (max-width: 994px) {
-    body {
-        padding: 40px 20px;
-    }
-
     .accordion {
         max-width: 100%;
         padding: 45px 60px 45px 60px;
