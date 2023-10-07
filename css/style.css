@@ -153,6 +153,26 @@ a:hover {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.banner-text-ani{
+    display: inline-block;
+     border-right: 5px solid transparent;
+     white-space: nowrap;
+     overflow: hidden;
+     width: 100%;
+     animation: typing 5s steps(16),
+     cursor .4s step-end infinite alternate;
+}
+
+/* cursor blinking */
+@keyframes cursor{
+    50%{ border-color: transparent;}
+}
+
+/* typing effect */
+@keyframes typing{
+    from { width: 0;}
+}
+
 #hero h2 {
     color: #18e496;
     margin-bottom: 40px;
@@ -925,10 +945,10 @@ color: rgb(205, 23, 23);
 
 
 
-/* < !-- --------------------------------------health queries section start------------------------------------------------------------------------------ --> */
 
-/* < !-- -------------------------------------------------------------------health queries section end --> */
-
+/* < !---------------------------------------------------------------------health Dashboard start----------------------------------------------------------------------------- --> */
+          
+/* < !-- -------------------------------------------------------------------health Dashboard end ---------------------------------------------------------> */
 
 
 /* < !----------------------------------------------------------------------health consern section start --------------------------------------------------------------------------------> */

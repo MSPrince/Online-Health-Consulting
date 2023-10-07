@@ -18,19 +18,24 @@
     <meta name="msapplication-TileImage" content="./image/Favicon-Icon/mstile-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <!-- favicon icon End -->
-    <title>Lon In - A Doctor's Diary</title>
-    <!-- <link rel="stylesheet" href="../27-09-2023/style.css">] -->
-    <link rel="stylesheet" href="./css/signup.css">
+
+    <!-- swipper css file link  Start-->
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+    <!-- swipper css file link End -->
+    <title>A Doctor's Diary</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/chatbot.css">
+    <link rel="stylesheet" href="./css/Download-app.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
     <link rel="stylesheet" href="./css/common-deases.css">
-    <link rel="stylesheet" href="./css/consult-now.css">
+
+
 </head>
 
 <body>
 
-
-    <!---------------------------------------- topbar Start-------------------------------------------- -->
-    <div id="topbar" class="d-flex align-items-center Signup-topbar">
+    <!------------------------------------- topbar Start-------------------------------------------- -->
+    <div id="topbar" class="d-flex align-items-center ">
         <div class="container d-flex align-items-center justify-content-center justify-content-md-between">
             <div class="align-items-center d-none d-md-flex">
                 <i class="fa fa-clock"></i> Monday - Sunday, 24*7
@@ -40,7 +45,7 @@
             </div>
         </div>
     </div>
-    <!------------------------------------------ topbar end ------------------------------------------------------>
+    <!-------------------------------------- topbar end ------------------------------------------------------>
 
 
     <!-------------------------------------navigation Start----------------------------------------------- ----->
@@ -83,7 +88,7 @@
                             </ul>
                         </li> -->
                     <li class="nav-item">
-                        <a class="nav-link " href="login.html" tabindex="-1" aria-disabled="false">Lab Test</a>
+                        <a class="nav-link " href="labtest.html" tabindex="-1" aria-disabled="false">Lab Test</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="common-deases.html">Comman Disease</a>
@@ -101,30 +106,115 @@
     <!-------------------------------------navigation  end----------------------------------------------- -->
 
 
-    <!-- Log In form Start -->
+
+    <!----------------------------------------------------------Health Dash Board ------------------------------------------------------------------------>
     <div class="container-fluid">
-        <div class="body-Signup">
-            <form class="Signup-form">
-                <p class="Signup-text">
-                    <span class="fa-stack fa-lg">
-                        <i class="fa fa-circle fa-stack-2x"></i>
-                        <i class="fa fa-lock fa-stack-1x"></i>
-                    </span>
-                </p>
-                <input type="text" class="Signup-username" autofocus="true" required="true"
-                    placeholder="Enter Your Name" />
-                <input type="email" class="Signup-username" autofocus="true" required="true"
-                    placeholder="Enter Your Email" />
-                <input type="password" class="Signup-password" required="true" placeholder="Password" />
-                <input type="password" class="Signup-password" required="true" placeholder="Confirm Password" />
-                <input type="submit" name="Signup" value="Signup" class="Signup-submit" />
-                <a href="login.html" class="Signup-signup">Already have a Member ! Login</a>
-            </form>
+        <div class="health-dashboard-body">
+            <div class="health-dashboard-container">
+                <div class="bg1">
+                    <h2>16 <span>| 24</span></h2>
+                    <p>Goals Completed</p>
+                </div>
+                <div class="bg1">
+                    <h2><i class="fas fa-battery-three-quarters"></i></h2>
+                    <p>Respiration</p>
+                </div>
+
+                <div class="bg2">
+                    <h2><i class="fas fa-running"></i></h2>
+                    <p>Miles</p>
+                </div>
+                <div class="bg1">
+                    <h2>37 &deg;C</h2>
+                    <p>Temperature</p>
+                </div>
+                <div class="bg1">
+                    <h2><i class="fas fa-bed"></i></h2>
+                    <p>Sleep Keep</p>
+                </div>
+                <div class="bg2">
+                    <h2>75 <span>bpm</span></h2>
+                    <p>Heart Rate</p>
+                </div>
+                <div class="bg1">
+                    <h2>170 <span>lbs</span></h2>
+                    <p>Weight</p>
+                </div>
+                <div class="bg1">
+                    <h2>24 <span>%</span></h2>
+                    <p>Fat Percentage</p>
+                </div>
+                <div class="bg2">
+                    <h2>90 <span>mgdl</span></h2>
+                    <p>Blood Glucose</p>
+                </div>
+                <div class="bg2">
+                    <h2>2080 <span>kcal</span></h2>
+                    <p>AVG Consumption</p>
+                </div>
+                <div class="bg2">
+                    <h2><i class="fas fa-dumbbell"></i></h2>
+                    <p>Workouts</p>
+                </div>
+                <div class="bg2">
+                    <h2>61 <span>%</span></h2>
+                    <p>Body Hydration</p>
+                </div>
+            </div>
         </div>
-        <div class="underlay-photo"></div>
-        <div class="underlay-black"></div>
+
     </div>
-    <!-- Log In form End-->
+    <!-----------------------------------------------------------Health Dash Board ----------------------------------------------------------------------->
+
+
+
+
+
+
+
+
+
+
+
+
+    <!------------------------------------------------------------- chatbot Start ------------------------------------------------------------------------>
+    <button class="chatbot-toggler">
+        <span class="material-symbols-rounded"><i class="bi bi-chat-dots-fill"></i></span>
+        <span class="material-symbols-outlined"><i class="bi bi-x-circle-fill"></i></span>
+    </button>
+    <div class="chatbot">
+        <header>
+            <h2>A Doctor's Diary Chatbot</h2>
+            <span class="close-btn material-symbols-outlined"><i class="bi bi-x-circle-fill"></i></span>
+        </header>
+        <ul class="chatbox">
+            <li class="chat incoming">
+                <span class="material-symbols-outlined">@MS-17</span>
+                <p>Hi there 👋<br>How can I help you today?</p>
+            </li>
+        </ul>
+        <div class="chat-input">
+            <textarea placeholder="Enter a message..." spellcheck="false" required></textarea>
+            <span id="send-btn" class="material-symbols-rounded">send</span>
+        </div>
+    </div>
+    <!----------------------------------------------------------------- chatbot End ------------------------------------------------------------------------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     <!-- ----------------------------link bootstrap js file---------------------------------------- -->
@@ -133,6 +223,16 @@
         crossorigin="anonymous"></script>
     <!-- --------------------------------link fontawsome ------------------------------------------------------>
     <script src="https://kit.fontawesome.com/b3263a74b4.js" crossorigin="anonymous"></script>
+    <!-- --------------------chatbot js file -->
+    <script src="./js/chatbot.js"></script>
+
+    <!-- main js file -->
+    <script src="./js/script.js"></script>
+    <!-- Swiper JS -->
+    <script src="./js/swiper-bundle.min.js"></script>
+
+    <!-- JavaScript our doctor -->
+    <script src="./js/Our-doctor.js"></script>
 </body>
 
 </html>
