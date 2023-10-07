@@ -13,14 +13,16 @@
     color: #0a0909;
     padding: 0;
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid  aqua;
 }
 
 .contact-lab-test p {
     color: #0c0b0b;
     padding: 0;
     margin: 0;
-    font-size: 1rem;
+    font-size: .8rem;
 }
 
 .lab-contact-number {
@@ -28,7 +30,7 @@
     /* border: 2px solid  aqua; */
     border-radius: 50px;
     font-family: inherit;
-    font-size: 1.4rem;
+    font-size: 1rem;
     padding: .5rem 1rem;
     color: #f10505;
     /* margin-top: 10px; */
@@ -86,7 +88,7 @@
     /* box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; */
 box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     /* border: 2px solid red; */
-    background-color: #D7E5F5;
+    background-color: #e6f5fc;
 }
 
 .lab-nav-card-layout>div div:hover {
@@ -120,19 +122,26 @@ box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 
 
 /* --------------------------------------------------------------------------------------------------------------------------------------------------------- */
 .lab-nav-card-layout>div img {
-    width: 100px;
+    width: 80px;
     border-radius: 50%;
+    /* display: none; */
+    
+}
+.Find-Tests-by-Health-Concern >div{
+    gap: 30px;
+    /* border: 2px solid red; */
+}
+.Find-Tests-by-Health-Concern >div >div{
+    background-color: #e6f5fc;
+    padding: 10px 30px 0 30px;
+}
+.Find-Tests-by-Health-Concern >div >div h5{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    /* border: 2px solid red; */
 }
 /* --------------------------------------------------------------------------------------------------------------------------------------------------------- */
-
-
-
-
-
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
-
-
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
 
 
 /* < !-- -------------------------------------------------------Lab-Partner section----------------------------------------------------------- --> */
@@ -142,10 +151,10 @@ box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 
     justify-content: space-between;
     border-radius: 20px;
     /* border: 2px solid red; */
-    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    box-shadow: rgba(6, 24, 44, 0.1) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
     padding: 10px;
     flex-wrap: wrap;
-    background-color: aqua;
+    background-color: #e6f5fc;
     margin-top: -30px;
 }
 
